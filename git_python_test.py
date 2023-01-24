@@ -21,3 +21,6 @@ def was_it_rufus(git_dir):
         print('blame Rufus: True\n')
     else:
         print('blame Rufus: False\n')
+
+local_repo = '${your local git repository}' # replace here
+was_it_rufus(local_repo)
